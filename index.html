@@ -1,15 +1,93 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
+  <title>AI 활용교육 허브</title>
   <link href='/style.css' rel='stylesheet'>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>AI 활용교육 허브</h1>
+      <p class="subtitle">누구나 손쉽게 AI 활용 지식을 얻을 수 있는 교육 플랫폼</p>
+      <p class="description">교육 대상을 선택하여 맞춤형 커리큘럼을 확인하세요</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="target-cards">
+      <!-- 1. 기업 임직원·직장인 -->
+      <a href="/curriculum/corporate.html" class="card">
+        <div class="card-header">
+          <span class="rank">1</span>
+          <h2>기업 임직원·직장인</h2>
+        </div>
+        <p class="card-desc">비개발 직군까지 포함한 전 직장인 대상, 사내 재직자 재교육 형식</p>
+        <div class="card-meta">
+          <span>총 6차시</span>
+          <span class="arrow">커리큘럼 보기 →</span>
+        </div>
+      </a>
+
+      <!-- 2. 일반 성인·프리랜서 -->
+      <a href="/curriculum/adult.html" class="card">
+        <div class="card-header">
+          <span class="rank">2</span>
+          <h2>일반 성인·프리랜서</h2>
+        </div>
+        <p class="card-desc">온라인 실무교육·부트캠프 플랫폼에서 30~50대 성인 개인 수강생 대상</p>
+        <div class="card-meta">
+          <span>4주·8차시</span>
+          <span class="arrow">커리큘럼 보기 →</span>
+        </div>
+      </a>
+
+      <!-- 3. 대학생·취업준비생 -->
+      <a href="/curriculum/student.html" class="card">
+        <div class="card-header">
+          <span class="rank">3</span>
+          <h2>대학생·취업준비생</h2>
+        </div>
+        <p class="card-desc">전공 불문 '학습·과제·취업 준비'에 바로 쓰는 실무형 AI 교육</p>
+        <div class="card-meta">
+          <span>3주·6차시</span>
+          <span class="arrow">커리큘럼 보기 →</span>
+        </div>
+      </a>
+
+      <!-- 4. 교사·교육담당자 -->
+      <a href="/curriculum/teacher.html" class="card">
+        <div class="card-header">
+          <span class="rank">4</span>
+          <h2>교사·교육담당자</h2>
+        </div>
+        <p class="card-desc">공공기관·교육청·교원연수원 중심 학생·교사 대상 AI 활용 교육</p>
+        <div class="card-meta">
+          <span>4주·8차시</span>
+          <span class="arrow">커리큘럼 보기 →</span>
+        </div>
+      </a>
+
+      <!-- 5. 초·중·고 학생 -->
+      <a href="/curriculum/k12.html" class="card">
+        <div class="card-header">
+          <span class="rank">5</span>
+          <h2>초·중·고 학생</h2>
+        </div>
+        <p class="card-desc">공공·학교 프로그램 형태로 점차 확산 중인 학생 대상 AI 리터러시</p>
+        <div class="card-meta">
+          <span>10차시 (중학생 기준)</span>
+          <span class="arrow">커리큘럼 보기 →</span>
+        </div>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>AI 활용교육 허브 | 누구나 AI와 함께 성장하는 세상</p>
+  </footer>
 </body>
 </html>
-
