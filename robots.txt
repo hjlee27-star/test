@@ -1,0 +1,11 @@
+# robots.txt for AI 활용교육 허브
+# https://hjlee27-star.github.io/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://hjlee27-star.github.io/sitemap.xml
+
+# Disallow unnecessary pages
+Disallow: /detail.html
